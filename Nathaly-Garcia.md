@@ -1,0 +1,3 @@
+# Diferencias entre git merge y git merge --no --ff
+El comando  **git merge** nos permite fusionar una o mas ramas, este nos permite incorporar cambios.  
+Cuando añadimos al comando la **--no-ff** previene que este se ejecute un ¨fast-forward¨ (un fast forward es cuando hay un camino lineal de la rama actual a la rama objetivo). El **git merge --no-ff** en vez de juntar o fusionar ambas ramas  lo que hace es combinar los commits previos desde todos los commits accesibles de la rama objetivo que ahora son facil de consequir de la rama actual. 
